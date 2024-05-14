@@ -1,0 +1,98 @@
+
+/*CSS*/
+
+body{
+    background-color: white;
+}
+
+.img{
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+}
+
+.col-12 {
+    width: 100%; 
+}
+
+.centrar {
+    text-align: center; 
+    font-weight: bold;
+    color: #dee21b;
+}
+.centrar{
+    text-align: center;
+}
+
+.h1 {font-weight: bolder;}
+
+.titulos{
+    color: #dee21b;
+    font-style: italic;
+}
+
+.titulodos {
+    color: #620e28;
+    font-weight: bold;
+}
+
+.desuno { 
+    justify-content: left;
+    text-align: justify;
+}
+.titulos2{
+    color:#dee21b;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+a:hover{
+    color: green;
+}
+
+.credencial{
+    background-color: #620e28;
+    color: white;
+}
+
+.pie{
+background-color: #620e28;
+    color: white;
+}
+
+ /* Estilos para las columnas */
+ .contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.column {
+    text-align: center;
+    flex-basis: 30%; /* Ancho de cada columna */
+}
+
+.column img {
+    width: 100%; /* Ancho máximo de la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 14px;
+    color: #555;
+}
